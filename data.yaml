@@ -1,0 +1,12 @@
+train: /home/teampi/dataset/train/images
+val: /home/teampi/dataset/test/images
+
+nc: 10
+names: ['Black gram_healthy', 'Black gram_leaf spot', 'Dolicos bean_cercospora leaf spot', 'Dolicos bean_healthy', 'Ground nut_healthy', 'Ground nut_tikka leaf spot', 'millet_healthy', 'millet_rust', 'tomato_early blight', 'tomato_healthy']
+
+roboflow:
+  workspace: milestonesalwin
+  project: plantleaf-jcgkv
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/milestonesalwin/plantleaf-jcgkv/dataset/7
